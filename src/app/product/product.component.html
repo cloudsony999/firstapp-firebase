@@ -1,0 +1,16 @@
+<h2>My Products!!!</h2>
+<hr>
+<table border="1" cellpadding="5">
+    <tr>
+        <td>Product Brand</td>
+        <td>Product type</td>
+        <td>Product price</td>
+        
+    </tr>
+
+    <tr *ngFor="let i of products">
+        <td>{{i.brand}}</td>
+        <td>{{i.type}}</td>
+        <td>{{i.price}}</td>
+    </tr>
+</table>
